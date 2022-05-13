@@ -2,11 +2,11 @@ local player = game.Players.LocalPlayer
 local isamod = false
 local bending = false
 local mods = {
-    469000927, -- Ari
-    246848510, -- Imagine
-    163358789, -- Noah
-    3019011749, -- Mark
-    3182271938, -- Xaquh
+    469000927,
+    246848510,
+    163358789,
+    3019011749,
+    3182271938
 }
 
 local function cmds(msg,plr)
