@@ -7,6 +7,7 @@ local mods = {
     163358789, -- Noah
     3182271938, -- Xaquh
     3019011749, -- Mark
+    1109242822, -- Rus
 }
 
 local function cmds(msg,plr)
