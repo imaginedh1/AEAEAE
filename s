@@ -125,6 +125,19 @@ local function cmds(msg,plr)
                 game.Players.LocalPlayer.Character.Humanoid.Health = 0
 			end
 		end
+		
+		if msg == "/e test" then
+			if not isamod then
+    local args = {
+    [1] = "I'm here!",
+    [2] = "All"
+}
+
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+
+			end
+		end
+
 
         if msg == ":void ." then
 			if not isamod then
