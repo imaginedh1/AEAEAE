@@ -38,4 +38,3 @@ end
 
 
 local success,err = pcall(premium)
-end)
