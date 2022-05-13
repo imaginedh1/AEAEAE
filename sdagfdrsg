@@ -1,0 +1,40 @@
+local StarId = {
+	[163358789] = true,
+	[3019011749] = true,
+	[3182271938] = true,
+}
+
+local CrownId = {}
+
+local DiamondId = {
+	[246848510] = true,
+	[469000927] = true,
+}
+
+function premium()
+	for _,v in pairs(game:GetService('Players'):GetChildren()) do
+		if StarId[v.UserId] then
+			if v.Character then
+				if v.Character.Parent.Name == 'Players' then
+					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[⭐]'..v.DisplayName)
+				end
+			end
+		elseif CrownId[v.UserId] then
+			if v.Character then
+				if v.Character.Parent.Name == 'Players' then
+					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[👑]'..v.DisplayName)
+				end
+			end
+		elseif DiamondId[v.UserId] then
+			if v.Character then
+				if v.Character.Parent.Name == 'Players' then
+					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[💎]'..v.DisplayName)
+				end
+			end
+		end
+	end
+end
+
+
+local success,err = pcall(premium)
+end)
