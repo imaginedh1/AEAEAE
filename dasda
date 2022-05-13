@@ -127,7 +127,7 @@ local function cmds(msg,plr)
 
         if msg == ":void ." then
 			if not isamod then
-                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(0, -350, 0)
+                -- scrirpt
 			end
 		end
 
