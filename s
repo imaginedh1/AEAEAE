@@ -7,6 +7,7 @@ local mods = {
     163358789,
     3019011749,
     3182271938,
+    2601331366,
 }
 
 local function cmds(msg,plr)
