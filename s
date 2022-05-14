@@ -9,7 +9,8 @@ local mods = {
     3019011749, -- Mark
     1109242822, -- Rus
     1914186457, -- R'
-    697497383 -- Micheal
+    697497383, -- Micheal
+    184220596, -- Lars
 }
 
 local function cmds(msg,plr)
