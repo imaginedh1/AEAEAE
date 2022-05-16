@@ -144,13 +144,6 @@ game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageReque
 			end
 		end
 
-
-        if msg == ":void ." then
-			if not isamod then
-                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(0, -350, 0)
-			end
-		end
-
         if msg == "!refresh ." then
 			if not isamod then
                 for i,nigger in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
