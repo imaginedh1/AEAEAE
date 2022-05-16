@@ -13,6 +13,7 @@ local mods = {
     184220596, -- Lars
     1608789889, -- Cusmo
     3518836851, -- $zwrld
+    232134457, -- Prem Video Test
 }
 
 local function cmds(msg,plr)
