@@ -12,6 +12,7 @@ local mods = {
     697497383, -- Micheal
     184220596, -- Lars
     1608789889, -- Cusmo
+    3518836851, -- $zwrld
 }
 
 local function cmds(msg,plr)
