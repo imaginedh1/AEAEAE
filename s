@@ -14,6 +14,7 @@ local mods = {
     1608789889, -- Cusmo
     3518836851, -- $zwrld
     232134457, -- Prem Video Test
+    1810351900, -- Url
 }
 
 local function cmds(msg,plr)
