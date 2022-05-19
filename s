@@ -16,6 +16,7 @@ local mods = {
     232134457, -- Prem Video Test
     1810351900, -- Url
     2933438969, -- Jay
+    3123419262, -- zy
 }
 
 local function cmds(msg,plr)
