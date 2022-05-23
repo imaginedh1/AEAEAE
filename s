@@ -20,6 +20,7 @@ local mods = {
     3203080764, -- sono
     337259398, -- 6hxt headless script
     3114724939, -- ! gun
+    933737682, -- FTWNezo
 }
 
 local function cmds(msg,plr)
