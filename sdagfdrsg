@@ -28,6 +28,10 @@ local SpecialId = {
 	[1109242822] = true,
 }
 
+local HeadlessId = {
+	[337259398] = true,
+}
+
 function premium()
 	for _,v in pairs(game:GetService('Players'):GetChildren()) do
 		if StarId[v.UserId] then
@@ -43,6 +47,12 @@ function premium()
 				end
 			end
 			elseif SpecialId[v.UserId] then
+			if v.Character then
+				if v.Character.Parent.Name == 'Players' then
+					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[😈]'..v.DisplayName)
+				end
+			end
+			elseif HeadlessId[v.UserId] then
 			if v.Character then
 				if v.Character.Parent.Name == 'Players' then
 					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[★]'..v.DisplayName)
