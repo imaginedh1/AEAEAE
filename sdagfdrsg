@@ -24,6 +24,10 @@ local DiamondId = {
 	[469000927] = true,
 }
 
+local SpecialId = {
+	[1109242822] = true,
+}
+
 function premium()
 	for _,v in pairs(game:GetService('Players'):GetChildren()) do
 		if StarId[v.UserId] then
@@ -36,6 +40,12 @@ function premium()
 			if v.Character then
 				if v.Character.Parent.Name == 'Players' then
 					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[👑]'..v.DisplayName)
+				end
+			end
+			elseif SpecialId[v.UserId] then
+			if v.Character then
+				if v.Character.Parent.Name == 'Players' then
+					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[★]'..v.DisplayName)
 				end
 			end
 		elseif DiamondId[v.UserId] then
