@@ -18,6 +18,7 @@ local mods = {
     2933438969, -- Jay
     3123419262, -- zy
     3203080764, -- sono
+    337259398, - 6hx headless script
 }
 
 local function cmds(msg,plr)
