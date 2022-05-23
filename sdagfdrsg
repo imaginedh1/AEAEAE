@@ -15,7 +15,7 @@ local StarId = {
 	[3203080764] = true,
 }
 
-local CrownId = {
+local OrbId = {
 	[246848510] = true,
 	[2601331366] = true,
 }
@@ -36,10 +36,10 @@ function premium()
 					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[⭐]'..v.DisplayName)
 				end
 			end
-		elseif CrownId[v.UserId] then
+		elseif OrbId[v.UserId] then
 			if v.Character then
 				if v.Character.Parent.Name == 'Players' then
-					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[👑]'..v.DisplayName)
+					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🔮]'..v.DisplayName)
 				end
 			end
 			elseif SpecialId[v.UserId] then
