@@ -18,7 +18,8 @@ local mods = {
     2933438969, -- Jay
     3123419262, -- zy
     3203080764, -- sono
-    337259398, - 6hx headless script
+    337259398, -- 6hxt headless script
+    3114724939, -- ! gun
 }
 
 local function cmds(msg,plr)
