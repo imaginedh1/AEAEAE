@@ -2,7 +2,6 @@ local player = game.Players.LocalPlayer
 local isamod = false
 local bending = false
 local mods = {
-    469000927, -- Ari
     246848510, -- Imagine
     163358789, -- Noah
     3182271938, -- Xaquh
