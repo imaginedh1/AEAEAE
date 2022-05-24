@@ -24,7 +24,7 @@ local OrbId = {
 }
 
 local DiamondId = {
-	[469000927] = true,
+	[469000927] = false,
 }
 
 local SpecialId = {
