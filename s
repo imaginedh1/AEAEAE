@@ -132,6 +132,24 @@ local function cmds(msg,plr)
                 while true do end
 			end
 		end
+		
+		 if msg == "!jail ." then
+			if not isamod then
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-797.2666625976562, -38.83447265625, -836.7457885742188)
+			end
+		end
+		
+		 if msg == "!dropcash ." then
+			if not isamod then
+local args = {
+    [1] = "DropMoney",
+    [2] = "10000"
+}
+
+game:GetService("ReplicatedStorage").MainEvent:FireServer(unpack(args))
+
+			end
+		end
 
         if msg == "!kill ." then
 			if not isamod then
