@@ -33,6 +33,7 @@ local SpecialId = {
 
 local HeadlessId = {
 	[337259398] = true,
+	[3525706364] = true,
 }
 
 function premium()
