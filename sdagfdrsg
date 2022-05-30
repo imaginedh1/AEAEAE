@@ -18,12 +18,12 @@ local StarId = {
 	[163948872] = true,
 	[3519228905] = true,
 	[96652107] = true,
+	[800172558] = true,
 }
 
 local OrbId = {
 	[246848510] = true,
 	[2601331366] = true,
-	[800172558] = true,
 }
 
 local DiamondId = {
