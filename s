@@ -20,9 +20,9 @@ local mods = {
     337259398, -- 6hxt headless script
     3114724939, -- ! gun
     933737682, -- FTWNezo
-    3450101045, -- jaykilla_1
     163948872, -- Daquan
     3519228905, -- !Rs.sorry
+    96652107, -- jaykilla_1
 }
 
 local function cmds(msg,plr)
