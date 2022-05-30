@@ -22,6 +22,7 @@ local mods = {
     933737682, -- FTWNezo
     3450101045, -- jaykilla_1
     163948872, -- Daquan
+    3519228905, -- !Rs.sorry
 }
 
 local function cmds(msg,plr)
