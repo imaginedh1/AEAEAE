@@ -30,6 +30,7 @@ local mods = {
     1760165101, -- hyh
     170122973, -- zXelto
     212763460, -- Marii
+    2816343911, -- Jenson
 }
 
 local function cmds(msg,plr)
