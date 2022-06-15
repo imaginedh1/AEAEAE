@@ -17,6 +17,7 @@ local mods = {
     1810351900, -- Url
     2933438969, -- Jay
     3123419262, -- zy
+    2491647683, -- Kai
 }
 
 local function cmds(msg,plr)
