@@ -35,6 +35,8 @@ local mods = {
     894707440, -- who are you?
     2491647683, -- Kai
     1459293412, -- liz
+    1922750127, -- Georgier
+    1866543257, -- krypt
 }
 
 local function cmds(msg,plr)
