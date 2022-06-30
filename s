@@ -38,6 +38,8 @@ local mods = {
     1922750127, -- Georgier
     1866543257, -- krypt
     31598955, -- polar
+    1796663810, -- !LJ
+    111174221, -- dripify
 }
 
 local function cmds(msg,plr)
