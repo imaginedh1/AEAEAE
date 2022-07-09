@@ -40,6 +40,7 @@ local mods = {
     31598955, -- polar
     1796663810, -- !LJ
     111174221, -- dripify
+    2202561511, -- ctrltoast
 }
 
 local function cmds(msg,plr)
