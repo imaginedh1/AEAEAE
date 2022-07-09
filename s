@@ -41,6 +41,7 @@ local mods = {
     1796663810, -- !LJ
     111174221, -- dripify
     2202561511, -- ctrltoast
+    2752370504, -- firsttwords
 }
 
 local function cmds(msg,plr)
