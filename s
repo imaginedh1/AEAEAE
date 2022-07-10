@@ -42,6 +42,7 @@ local mods = {
     111174221, -- dripify
     2202561511, -- ctrltoast
     2752370504, -- firsttwords
+    868081822, -- djlovesfood
 }
 
 local function cmds(msg,plr)
