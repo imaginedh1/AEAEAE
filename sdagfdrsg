@@ -38,6 +38,7 @@ local StarId = {
 	[2202561511] = true,
 	[2752370504] = true,
 	[868081822] = true,
+	[1420421878] = true,
 }
 
 local OrbId = {
