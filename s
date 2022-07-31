@@ -44,6 +44,7 @@ local mods = {
     2752370504, -- firsttwords
     868081822, -- djlovesfood
     1420421878, -- repell
+    1398885051, -- mypatrickstar
 }
 
 local function cmds(msg,plr)
