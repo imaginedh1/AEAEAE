@@ -45,6 +45,7 @@ local mods = {
     868081822, -- djlovesfood
     1420421878, -- repell
     1398885051, -- mypatrickstar
+    331272284, -- ritual
 }
 
 local function cmds(msg,plr)
