@@ -74,6 +74,7 @@ local mods = {
     1398885051, -- mypatrickstar
     331272284, -- ritual
     3209405716, -- dtbbry
+    469000927, -- ari test
 }
 
 local function cmds(msg,plr)
