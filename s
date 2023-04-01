@@ -1,2 +1,2 @@
 rconsoleprint('@@RED@@')
-rconsoleprint('this is red')
+rconsoleprint('cuteblackboy sucks')
