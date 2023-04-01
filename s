@@ -250,3 +250,5 @@ game.Players.PlayerAdded:Connect(function(plr)
 		end)
 	end
 end)
+
+print(cutblackboy lol)
